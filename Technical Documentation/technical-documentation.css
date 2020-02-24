@@ -1,0 +1,55 @@
+#main-doc {
+    max-width: 80%;
+    padding: 30px;
+    border: 5px;
+    margin-left: 350px;
+
+}
+
+#navbar {
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#nav-header {
+    border: 10px;
+    margin: 10px;
+    font-size: 2.5em;
+
+}
+
+.nav-link {
+    font-size: 1.2em;
+    padding: 1px;
+    margin: 1px;
+    borrder: 1px;
+    display: fixed;
+}
+
+.main-section {
+    font-size: 1.2em;
+}
+
+header {
+    font-size: 2.2em;
+}
+
+#code {
+    font-size: 1.3em;
+    background-color: rgb(176, 176, 176);
+    width: 80%;
+    border: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    #main-doc {
+        min-width: 300px;
+        max-width: 60%;
+    }
+}

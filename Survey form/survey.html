@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example Title</title>
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Example description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <link rel="icon" type="image/x-icon" href="" />
+</head>
+
+<body>
+    div id="body">
+    <h1 id="title">Metro Vanvcouver</h1>
+    <h3 id="description">This is a survey form to observe the residency trends of Metro Vancouver area. Please leave your comment down below!!</h3>
+    <form id="survey-form">
+        <div class="form">
+            <label for="full-name">
+                <p>Full Name:</p>
+            </label>
+            <input type="name" name="name" id="name" placeholder="Last name, First name" required>
+            <br>
+            <label for="email">
+                <p>Email Address:</p>
+            </label>
+            <input type="email" name="email" id="email" placeholder="______@___.com/ca" required>
+            <br>
+            <p>Which area do you live in?</p>
+            <select id="dropdown">
+                <option value="Downtown-Vancouver">Downtown-Vancouver</option>
+                <option value="East-Van">East-Van</option>
+                <option value="West/UBC">West/UBC</option>
+                <option value="North Vancouver">North Vancouver</option>
+                <option value="South Vancouver">South Vancouver</option>
+                <option value="Burnaby">Burnaby</option>
+                <option value="Richmond">Richmond</option>
+                <option value="Coquitlam">Coquitlam</option>
+                <option value="Surrey">Surrey</option>
+            </select>
+            <br>
+            <p>Your current living situation:</p>
+            <div id="radio">
+                <input type="radio" id="owned" name="Your current living situation" value="owned">
+                <label for="owned">Own it!</label>
+
+                <div class="check"></div>
+                <input type="radio" id="rented" name="Your current living situation" value="rented">
+                <label for="rented">Rent it.</label>
+
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+                </>
+                </>
+            </div>
+            <label for="years">
+                <p>Months of residence in current address:</p>
+            </label>
+            <input type="number" name="years" id="years" min="0" max="1608" step="12">
+            <br>
+            <label for="monthly expense">
+                <p> What do you pay for your place monthly?</p>
+            </label>
+            <input type="text" placeholder="$x,xxx/month">
+
+            <p>What do you desire to add to your current place?</p>
+            <div id="checkbox">
+                <input type="checkbox" name="pool">Swimming pool
+                <input type="checkbox" name="car wash">Car wash
+                <input type="checkbox" name="mountain view">Mountain View
+                <input type="checkbox" name="jacuzzi">Jacuzzi
+                <input type="checkbox" name="home garden">Home Garden
+                <input type="checkbox" name="cook/chef">Full time Chef
+            </div>
+            <br>
+            <p> Any comments or feedback?</p>
+            <textarea name="additional comments" rows="10" cols="50" placeholder="Please share your feedback...."> </textarea>
+            <br>
+            <button id="submit" type=" submit">Submit</button>
+            <br>
+            <button id="reset" type="reset">"Oops, I made a mistake"</button>
+        </div>
+    </form>
+    </div>
+    <script type="text/javascript" src=""></script>
+</body>
+
+</html>
